@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@rainbow-me/rainbowkit": "2.2.10",
+    "@rainbow-me/rainbowkit": "^2.1.2",
     "@tanstack/react-query": "5.56.2",
     "@zama-fhe/relayer-sdk": "0.4.1",
     "ethers": "6.13.4",
