@@ -5,28 +5,24 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "next start"
   },
   "dependencies": {
-    "@rainbow-me/rainbowkit": "^2.2.10",
-    "@tanstack/react-query": "^5.100.6",
-    "@zama-fhe/relayer-sdk": "^0.4.2",
-    "ethers": "^6.16.0",
-    "next": "16.2.4",
-    "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "viem": "^2.48.4",
-    "wagmi": "^3.6.8"
+    "@rainbow-me/rainbowkit": "2.2.10",
+    "@tanstack/react-query": "5.56.2",
+    "@zama-fhe/relayer-sdk": "0.4.1",
+    "ethers": "6.13.4",
+    "next": "14.2.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "viem": "2.21.54",
+    "wagmi": "2.12.29"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.4",
-    "tailwindcss": "^4",
-    "typescript": "^5"
-  }
+    "@types/node": "20.16.11",
+    "@types/react": "18.3.11",
+    "@types/react-dom": "18.3.1",
+    "typescript": "5.6.3"
+  },
+  "installCommand": "npm install --legacy-peer-deps"
 }
